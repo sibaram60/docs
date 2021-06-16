@@ -47,7 +47,7 @@ payload is
 ```javascript
 {
   "mobile" : "7894561230",
-  "OTP" : "123456",
+  "otp" : "123456",
 }
 ```
 ## resend-otp

@@ -1,7 +1,7 @@
 ## Documentation
-* [ <base-url>/v0/api/auth/confirm-mobile](#confirm-mobile)
-* [ <base-url>/v0/api/auth/confirm-otp](#confirm-otp)
-* [ <base-url>/v0/api/auth/resend-otp](#resend-otp)
+* [ <base-url>/v0/api/register/confirm-mobile](#confirm-mobile)
+* [ <base-url>/v0/api/register/confirm-otp](#confirm-otp)
+* [ <base-url>/v0/api/register/resend-otp](#resend-otp)
 
 ## confirm-mobile
 [ METHOD - POST ]
@@ -13,7 +13,7 @@ password| string | alphanumeric and should more than 6 characters
 confirmPassword| string | match the above password field
 
 For example
-URL :  http://< base-domain >/v0/api/auth/confirm-mobile \
+URL :  http://< base-domain >/v0/api/register/confirm-mobile \
  \
 method: POST \
  \
@@ -38,7 +38,7 @@ otp| string | 6 digits
 
 
 For example
-URL :  http://< base-domain >/v0/api/auth/confirm-otp \
+URL :  http://< base-domain >/v0/api/register/confirm-otp \
  \
 method: POST \
  \
@@ -60,8 +60,8 @@ mobile | string | unique and 10 digits of number
 
 
 For example
-URL :  http://< base-domain >/v0/api/auth/resend-otp/:mobile \
+URL :  http://< base-domain >/v0/api/register/resend-otp/:mobile \
  \
 method: GET \
  \
-payload will in URL - v0/api/auth/resend-otp/:mobile 
+payload will in URL - v0/api/register/resend-otp/:mobile 

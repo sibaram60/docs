@@ -1,7 +1,10 @@
-## Documentation
-* [ <base-url>/v0/api/register/confirm-mobile](#confirm-mobile)
-* [ <base-url>/v0/api/register/confirm-otp](#confirm-otp)
-* [ <base-url>/v0/api/register/resend-otp](#resend-otp)
+## Documentation /register
+* [/api/v1/register/verify-mobile](#verify-mobile)
+* [/api/v1/register/confirm-otp](#confirm-otp)
+* [/api/v1/register/resend-otp](#resend-otp)
+* [/api/v1/register/register](#register)
+ 
+ This API will guide, to register a user into the site.
 
 ## confirm-mobile
 [ METHOD - POST ]
